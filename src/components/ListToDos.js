@@ -3,9 +3,9 @@ import React from "react";
 function ListToDos(props) {
     return (
         <ul>
-            {props.list.map(function(item) {
+            {props.list.map(function(item, i) {
                 return (
-                    <li>{item}</li>                    
+                    <li key={i}>{item}</li>                    
                 )
             })}
         </ul>
