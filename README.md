@@ -2,7 +2,7 @@
 
 Simple to-do app built with React.
  
-### Instaling
+### Installing
 
 To install the dependencies type:
 
@@ -17,4 +17,3 @@ To run the app type:
 ```
 npm start
 ```
- 
